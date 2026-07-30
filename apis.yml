@@ -1,8 +1,13 @@
 aid: littlefish
 name: littlefish
-description: 'littlefish is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'littlefish is a next generation merchant services platform positioned
+  as a full-stack enterprise payments platform that extends a business''s existing
+  infrastructure instead of replacing it. Backed by Partech and operating in the Financial
+  Services sector, littlefish covers merchant services, payments, finance, commerce,
+  onboarding, operations, intelligence, and customer engagement, with a stated focus
+  on financial inclusion. As of enrichment the company publishes a marketing site only
+  (littlefishapp.com) with no public developer portal, API reference, or OpenAPI surface
+  discovered; this profile captures verified identity, legal, and domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/littlefish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://littlefishapp.com/og-image.png
 tags:
 - Company
 - Financial Services
+- Merchant Services
+- Payments
+- Fintech
+- Commerce
+- Enterprise Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://littlefishapp.com/
+- type: About
+  url: https://littlefishapp.com/about
+- type: PrivacyPolicy
+  url: https://littlefishapp.com/legal/privacy
+- type: TermsOfService
+  url: https://littlefishapp.com/legal/terms
+- type: DomainSecurity
+  url: security/littlefish-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
