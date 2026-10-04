@@ -43,7 +43,7 @@ modified: '2026-07-20'
 image: https://littlefishapp.com/og-image.png
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Merchant Services
 - Payments
 - Fintech
@@ -57,6 +57,7 @@ tags_raw:
 - Fintech
 - Commerce
 - Enterprise Platform
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
